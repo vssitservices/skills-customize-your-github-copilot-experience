@@ -1,19 +1,36 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Assignment: Games in Python
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objective
 
-## 🎯 O Que Você Vai Construir
+Practice core Python programming concepts by building a word-guessing game that uses lists, loops, conditionals, and user input to create an interactive experience.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tasks
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Build the Game Loop
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Crie o núcleo do jogo em que o jogador tenta adivinhar letras de uma palavra secreta até completar a palavra ou perder todas as tentativas.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa concluído deve:
+
+- Selecionar uma palavra aleatória a partir de uma lista pré-definida
+- Mostrar o estado atual da palavra com letras reveladas e espaços para letras ainda não descobertas
+- Ler uma letra informada pelo usuário
+- Verificar se a letra está presente na palavra e atualizar o progresso
+- Contar as tentativas restantes e avisar o jogador quando uma letra for repetida ou inválida
+- Encerrar o jogo quando a palavra for adivinhada ou quando as tentativas acabarem
+
+### 🛠️ Add Win/Loss Feedback
+
+#### Descrição
+Melhore o jogo com mensagens claras de vitória e derrota, além de uma experiência mais amigável para o jogador.
+
+#### Requisitos
+O programa concluído deve:
+
+- Exibir uma mensagem de vitória quando o jogador descobrir a palavra completa
+- Exibir uma mensagem de derrota quando as tentativas acabarem
+- Mostrar o resultado final da palavra escolhida ao fim da partida
+- Permitir que o jogador jogue novamente, se desejar, sem reiniciar o programa manualmente
