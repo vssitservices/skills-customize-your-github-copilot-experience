@@ -1,11 +1,11 @@
 
-# 📘 Assignment: Games in Python
+# 📘 Atividade: Jogo da Forca
 
-## 🎯 Objective
+## 🎯 Objetivo
 
-Build a complete Python word-guessing game that uses lists, loops, conditionals, and user input to practice core programming concepts in an interactive way.
+Crie um jogo de adivinhação de palavras em Python, praticando listas, laços, condicionais e entrada de dados do usuário em uma aplicação interativa.
 
-## 📝 Tasks
+## 📝 Tarefas
 
 ### 🛠️ Estrutura do Jogo
 
