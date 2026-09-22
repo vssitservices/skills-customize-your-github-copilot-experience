@@ -72,6 +72,13 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "building-web-interfaces-rest-apis",
+      "title": "Building Web Interfaces for REST APIs",
+      "description": "Consumo de APIs REST com HTML, JavaScript, fetch, formulários e estados de interface.",
+      "path": "assignments/building-web-interfaces-rest-apis",
+      "dueDate": "2026-09-29"
     }
   ]
 }
